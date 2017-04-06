@@ -2,13 +2,13 @@
 
 
 # Create a vector of everything you ate for breakfast
-breakfast <- c('toast','cereal','quasedilla','hashbrown')
+my.breakfast <- c('toast','cereal','quasedilla','hashbrown')
 
 # Create a vector of everything you ate for lunch
-lunch <- c('pepperoni','chips','sandwhich', 'apple')
+my.lunch <- c('pepperoni','chips','sandwhich', 'apple')
 
 # Create a list `meals` that has contains your breakfast and lunch
-meals <-list(breakfast, lunch)
+meals <-list(breakfast = my.breakfast, lunch = my.lunch)
 
 # Add a `dinner` index to your `meals` list that has what you plan to eat for dinner
 
